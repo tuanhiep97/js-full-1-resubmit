@@ -1,6 +1,7 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import processImage from './imageProcessing';
+import { ImageQuery } from '../model/ImageQuery';
 
 const originalImagesPath = path.resolve(__dirname, '../images/full');
 const thumbImagesPath = path.resolve(__dirname, '../images/thumb');

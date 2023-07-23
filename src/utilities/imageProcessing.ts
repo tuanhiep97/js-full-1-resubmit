@@ -1,7 +1,8 @@
 import sharp from 'sharp';
+import { SharpResizeParams } from '../model/SharpResizeParams';
 
 const processImage = async (
-  params: sharpResizeParams,
+  params: SharpResizeParams,
 ): Promise<null | string> => {
   try {
     await sharp(params.source)

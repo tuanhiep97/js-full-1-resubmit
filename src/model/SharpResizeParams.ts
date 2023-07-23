@@ -1,4 +1,4 @@
-interface sharpResizeParams {
+export interface SharpResizeParams {
   source: string;
   target: string;
   width: number;
