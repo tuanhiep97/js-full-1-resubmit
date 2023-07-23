@@ -9,7 +9,6 @@ app.use(routes);
 
 app.listen(port, async (): Promise<void> => {
   await file.checkThumbFolderExistOrCreateNew();
-  console.log(`Listening on port ${port}`);
 });
 
 export default app;
